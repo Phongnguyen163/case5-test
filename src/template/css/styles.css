@@ -5622,7 +5622,7 @@ element.style {
   list-style: none;
 }
 
-.login-and-register-form .tabs-menu li a {
+.login-and-register-form .tabs-menu li.current a {
   background: #FF385C;
 }
 

@@ -5,8 +5,8 @@
       <div class="close-reg"><i class="fa fa-times"></i></div>
       <div id="tabs-container">
         <ul class="tabs-menu">
-          <input type="radio" checked="checked"><li><a routerLink="login">Login</a></li>
-          <input type="radio" checked="checked"><li><a routerLink="register">Register</a></li>
+          <li class="current" (click)="changeColorRegister()" id="login"><a routerLink="login">Login</a></li>
+          <li (click)="changeColorLogin()"id="register"><a routerLink="register" >Register</a></li>
         </ul>
         <router-outlet></router-outlet>
       </div>
