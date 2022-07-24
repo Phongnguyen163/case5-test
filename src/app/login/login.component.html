@@ -1,0 +1,14 @@
+<div class="tab">
+  <div id="tab-1" class="tab-contents">
+    <div class="custom-form">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <label>Username or Email Address * </label>
+        <input name="email" type="text" onClick="this.select()" value="">
+        <label>Password * </label>
+        <input name="password" type="password" onClick="this.select()" value="">
+        <button type="submit" class="log-submit-btn"><span>Log In</span></button>
+        <div class="clearfix"></div>
+      </form>
+    </div>
+  </div>
+</div>

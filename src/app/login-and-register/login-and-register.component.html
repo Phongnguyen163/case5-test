@@ -1,0 +1,15 @@
+<div class="login-and-register-form modal" id="exampleModal">
+  <div class="main-overlay"></div>
+  <div class="main-register-holder">
+    <div class="main-register fl-wrap">
+      <div class="close-reg"><i class="fa fa-times"></i></div>
+      <div id="tabs-container">
+        <ul class="tabs-menu">
+          <input type="radio" checked="checked"><li><a routerLink="login">Login</a></li>
+          <input type="radio" checked="checked"><li><a routerLink="register">Register</a></li>
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
